@@ -1,0 +1,780 @@
+<!--allrecords--><div id="allrecords" data-tilda-export="yes" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="7904563" data-tilda-page-id="40010323" data-tilda-page-alias="skaniephoto" data-tilda-formskey="bcbdd4eb0f47edf4e2bf4f6207904563" data-tilda-cookie="no" data-tilda-lazy="yes" ><div id="rec648782454" class="r t-rec" style=" " data-animationappear="off" data-record-type="131" ><!-- T123 --><div class="t123" ><div class="t-container_100 "><div class="t-width t-width_100 ">
+
+			<!DOCTYPE html>
+<html>
+<head>
+  <title>Загрузка страницы</title>
+  <style>
+    #loader {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #f3f3f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    #loader:after {
+      content: "";
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 10px solid #ef4958;
+      border-color: #ef4958 transparent #ef4958 transparent;
+      animation: loader 1.5s linear infinite;
+    }
+
+    @keyframes loader {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    h1 {
+      opacity: 0;
+      transition: opacity 1s ease-in;
+    }
+
+    .loaded #loader {
+      display: none;
+    }
+
+    .loaded h1 {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="loader"></div>
+
+  <script>
+    window.addEventListener("load", function() {
+      var loader = document.getElementById("loader");
+      document.body.classList.add("loaded");
+    });
+  </script>
+</body>
+</html>
+			 
+			
+</div> </div></div></div><div id="rec648717918" class="r t-rec" style=" " data-animationappear="off" data-record-type="875" ><!-- t875 --><script>t_onReady(function () {
+t_onFuncLoad('t875_init', function () {
+t875_init('648717918');
+});
+});</script></div><div id="rec648720766" class="r t-rec" style=" " data-animationappear="off" data-record-type="131" ><!-- T123 --><div class="t123" ><div class="t-container_100 "><div class="t-width t-width_100 ">
+
+			<style>
+.container {
+    height: 1200px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f1923;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ef4958;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ef4958;
+}
+</style>
+			 
+			
+</div> </div></div></div><div id="rec647342162" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="450" ><div class="t450__menu__content " 
+style="top:15px; " data-menu="yes" data-appearoffset="" data-hideoffset=""
+><div class="t450__burger_container t450__small "><div class="t450__burger_bg t450__burger_cirqle" 
+style="background-color:#ef4958; opacity:1;"></div><button type="button" 
+class="t-menuburger t-menuburger_first t-menuburger__small" 
+aria-label="Навигационное меню" 
+aria-expanded="false"><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span></button><script>function t_menuburger_init(recid) {
+var rec = document.querySelector('#rec' + recid);
+if (!rec) return;
+var burger = rec.querySelector('.t-menuburger');
+if (!burger) return;
+var isSecondStyle = burger.classList.contains('t-menuburger_second');
+if (isSecondStyle && !window.isMobile && !('ontouchend' in document)) {
+burger.addEventListener('mouseenter', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-unhovered');
+burger.classList.add('t-menuburger-hovered');
+});
+burger.addEventListener('mouseleave', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-hovered');
+burger.classList.add('t-menuburger-unhovered');
+setTimeout(function() {
+burger.classList.remove('t-menuburger-unhovered');
+}, 300);
+});
+}
+burger.addEventListener('click', function() {
+if (!burger.closest('.tmenu-mobile') &&
+!burger.closest('.t450__burger_container') &&
+!burger.closest('.t466__container') &&
+!burger.closest('.t204__burger') &&
+!burger.closest('.t199__js__menu-toggler')) {
+burger.classList.toggle('t-menuburger-opened');
+burger.classList.remove('t-menuburger-unhovered');
+}
+});
+var menu = rec.querySelector('[data-menu="yes"]');
+if (!menu) return;
+var menuLinks = menu.querySelectorAll('.t-menu__link-item');
+var submenuClassList = ['t978__menu-link_hook', 't978__tm-link', 't966__tm-link', 't794__tm-link', 't-menusub__target-link'];
+Array.prototype.forEach.call(menuLinks, function (link) {
+link.addEventListener('click', function () {
+var isSubmenuHook = submenuClassList.some(function (submenuClass) {
+return link.classList.contains(submenuClass);
+});
+if (isSubmenuHook) return;
+burger.classList.remove('t-menuburger-opened');
+});
+});
+menu.addEventListener('clickedAnchorInTooltipMenu', function () {
+burger.classList.remove('t-menuburger-opened');
+});
+}
+t_onReady(function() {
+t_onFuncLoad('t_menuburger_init', function(){t_menuburger_init('647342162');});
+});</script><style>.t-menuburger {
+position: relative;
+flex-shrink: 0;
+width: 28px;
+height: 20px;
+padding: 0;
+border: none;
+background-color: transparent;
+outline: none;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: transform .5s ease-in-out;
+cursor: pointer;
+z-index: 999;
+}
+/*---menu burger lines---*/
+.t-menuburger span {
+display: block;
+position: absolute;
+width: 100%;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: .25s ease-in-out;
+height: 3px;
+background-color: #000;
+}
+.t-menuburger span:nth-child(1) {
+top: 0px;
+}
+.t-menuburger span:nth-child(2),
+.t-menuburger span:nth-child(3) {
+top: 8px;
+}
+.t-menuburger span:nth-child(4) {
+top: 16px;
+}
+/*menu burger big*/
+.t-menuburger__big {
+width: 42px;
+height: 32px;
+}
+.t-menuburger__big span {
+height: 5px;
+}
+.t-menuburger__big span:nth-child(2),
+.t-menuburger__big span:nth-child(3) {
+top: 13px;
+}
+.t-menuburger__big span:nth-child(4) {
+top: 26px;
+}
+/*menu burger small*/
+.t-menuburger__small {
+width: 22px;
+height: 14px;
+}
+.t-menuburger__small span {
+height: 2px;
+}
+.t-menuburger__small span:nth-child(2),
+.t-menuburger__small span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger__small span:nth-child(4) {
+top: 12px;
+}
+/*menu burger opened*/
+.t-menuburger-opened span:nth-child(1) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.t-menuburger-opened span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.t-menuburger-opened span:nth-child(4) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(1) {
+top: 6px;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(4) {
+top: 18px;
+}
+.t-menuburger-opened.t-menuburger__small span:nth-child(1),
+.t-menuburger-opened.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+/*---menu burger first style---*/
+@media (hover), (min-width:0\0) {
+.t-menuburger_first:hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_first:hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+/*---menu burger second style---*/
+.t-menuburger_second span:nth-child(2),
+.t-menuburger_second span:nth-child(3) {
+width: 80%;
+left: 20%;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_second.t-menuburger-hovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-hovered span:nth-child(3) {
+animation: t-menuburger-anim 0.3s ease-out normal forwards;
+}
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(3) {
+animation: t-menuburger-anim2 0.3s ease-out normal forwards;
+}
+}
+.t-menuburger_second.t-menuburger-opened span:nth-child(2),
+.t-menuburger_second.t-menuburger-opened span:nth-child(3){
+left: 0;
+right: 0;
+width: 100%!important;
+}
+/*---menu burger third style---*/
+.t-menuburger_third span:nth-child(4) {
+width: 70%;
+left: unset;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_third:not(.t-menuburger-opened):hover span:nth-child(4) {
+width: 100%;
+}
+}
+.t-menuburger_third.t-menuburger-opened span:nth-child(4) {
+width: 0!important;
+right: 50%;
+}
+/*---menu burger fourth style---*/
+.t-menuburger_fourth {
+height: 12px;
+}
+.t-menuburger_fourth.t-menuburger__small {
+height: 8px;
+}
+.t-menuburger_fourth.t-menuburger__big {
+height: 18px;
+}
+.t-menuburger_fourth span:nth-child(2),
+.t-menuburger_fourth span:nth-child(3) {
+top: 4px;
+opacity: 0;
+}
+.t-menuburger_fourth span:nth-child(4) {
+top: 8px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__big span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(4) {
+top: 12px;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(1),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(4) {
+top: 4px;
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(2),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(3) {
+opacity: 1;
+}
+/*---menu burger animations---*/
+@keyframes t-menuburger-anim {
+0% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+50% {
+width: 100%;
+left: 0;
+right: 0;
+}
+100% {
+width: 80%;
+left: 0;
+right: 20%;
+}
+}
+@keyframes t-menuburger-anim2 {
+0% {
+width: 80%;
+left: 0;
+}
+50% {
+width: 100%;
+right: 0;
+left: 0;
+}
+100% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+}</style> </div></div><!-- t450 --><div id="nav647342162marker"></div><div class="t450__overlay"><div class="t450__overlay_bg" 
+style="background-color:#000000; "></div></div><div id="nav647342162" class="t450 " data-tooltip-hook="#menuopen" 
+style="max-width: 260px;background-color: #ef4958;"><button type="button" 
+class="t450__close-button t450__close t450_opened "
+style="background-color: #ef4958;" 
+aria-label="Закрыть меню"><div class="t450__close_icon"><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span></div></button><div class="t450__container t-align_left"><div class="t450__top"><nav class="t450__menu" 
+aria-label="Основная навигация"><ul role="list" class="t450__list t-menu__list"><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="#rec647341839" data-menu-submenu-hook="" data-menu-item-number="1" 
+style="color:#ffffff;font-size:24px;">Главная</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="#rec648339033" data-menu-submenu-hook="" data-menu-item-number="2" 
+style="color:#ffffff;font-size:24px;">Введение</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="#rec648341061" data-menu-submenu-hook="" data-menu-item-number="3" 
+style="color:#ffffff;font-size:24px;">О курсе</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="#rec648568223" data-menu-submenu-hook="" data-menu-item-number="4" 
+style="color:#ffffff;font-size:24px;">Преимущество</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="#rec648729841" data-menu-submenu-hook="" data-menu-item-number="5" 
+style="color:#ffffff;font-size:24px;">Портфолио</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="#rec648569694" data-menu-submenu-hook="" data-menu-item-number="6" 
+style="color:#ffffff;font-size:24px;">Преподаватели</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="#rec648580285" data-menu-submenu-hook="" data-menu-item-number="7" 
+style="color:#ffffff;font-size:24px;">Тарифы</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="#rec648348999" data-menu-submenu-hook="" data-menu-item-number="8" 
+style="color:#ffffff;font-size:24px;">Отзывы</a></li></ul></nav></div><div class="t450__rightside"><div class="t450__rightcontainer"><div class="t450__right_social_links"><div class="t-sociallinks"><ul role="list" class="t-sociallinks__wrapper" aria-label="Соц. сети"><!-- new soclinks --><li class="t-sociallinks__item t-sociallinks__item_vk"><a href="vk.com" target="_blank" rel="nofollow" aria-label="ВКонтакте" title="ВКонтакте" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50ZM25 34c.406 19.488 10.15 31.2 27.233 31.2h.968V54.05c6.278.625 11.024 5.216 12.93 11.15H75c-2.436-8.87-8.838-13.773-12.836-15.647C66.162 47.242 71.783 41.62 73.126 34h-8.058c-1.749 6.184-6.932 11.805-11.867 12.336V34h-8.057v21.611C40.147 54.362 33.838 48.304 33.556 34H25Z" fill="#ffffff"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_telegram"><a href="telegram.org" target="_blank" rel="nofollow" aria-label="Телеграм" title="Телеграм" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm21.977-68.056c.386-4.38-4.24-2.576-4.24-2.576-3.415 1.414-6.937 2.85-10.497 4.302-11.04 4.503-22.444 9.155-32.159 13.734-5.268 1.932-2.184 3.864-2.184 3.864l8.351 2.577c3.855 1.16 5.91-.129 5.91-.129l17.988-12.238c6.424-4.38 4.882-.773 3.34.773l-13.49 12.882c-2.056 1.804-1.028 3.35-.129 4.123 2.55 2.249 8.82 6.364 11.557 8.16.712.467 1.185.778 1.292.858.642.515 4.111 2.834 6.424 2.319 2.313-.516 2.57-3.479 2.57-3.479l3.083-20.226c.462-3.511.993-6.886 1.417-9.582.4-2.546.705-4.485.767-5.362Z" fill="#ffffff"/></svg></a></li><!-- /new soclinks --></ul></div></div></div></div></div></div><script>t_onReady(function() {
+var rec = document.querySelector('#rec647342162');
+if (!rec) return;
+rec.setAttribute('data-animationappear', 'off');
+rec.style.opacity = 1;
+t_onFuncLoad('t450_initMenu', function () {
+t450_initMenu('647342162');
+});
+});</script><style>#rec647342162 .t-menu__link-item{
+}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{
+#rec647342162 .t-menu__link-item,
+#rec647342162 .t-menu__link-item.t-active {
+opacity: 1 !important;
+}
+}</style></div><div id="rec647341839" class="r t-rec" style=" " data-animationappear="off" data-record-type="396" ><!-- T396 --><style>#rec647341839 .t396__artboard {height: 970px; background-image: linear-gradient(0.22turn,rgba(228,31,49,1) 0%,rgba(255,255,255,0.5) 100%); }#rec647341839 .t396__filter {height: 970px; background-color: rgba(232,210,210,0.5);}#rec647341839 .t396__carrier{height: 970px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec647341839 .t396__artboard {}#rec647341839 .t396__filter {}#rec647341839 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec647341839 .t396__artboard {}#rec647341839 .t396__filter {}#rec647341839 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec647341839 .t396__artboard {}#rec647341839 .t396__filter {}#rec647341839 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec647341839 .t396__artboard {}#rec647341839 .t396__filter {}#rec647341839 .t396__carrier {background-attachment: scroll;}} #rec647341839 .tn-elem[data-elem-id="1696440524176"] { z-index: 2; top: -44px;left: calc(50% - 600px + -370px);width: 1940px;}#rec647341839 .tn-elem[data-elem-id="1696440524176"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696440532902"] { z-index: 3; top: -44px;left: calc(50% - 600px + -370px);width: 1940px;}#rec647341839 .tn-elem[data-elem-id="1696440532902"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696440533438"] { z-index: 4; top: -44px;left: calc(50% - 600px + -370px);width: 1940px;}#rec647341839 .tn-elem[data-elem-id="1696440533438"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696440534037"] { z-index: 5; top: -44px;left: calc(50% - 600px + -370px);width: 1940px;}#rec647341839 .tn-elem[data-elem-id="1696440534037"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696440534706"] { z-index: 6; top: -44px;left: calc(50% - 600px + -370px);width: 1940px;}#rec647341839 .tn-elem[data-elem-id="1696440534706"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696440535380"] { z-index: 7; top: -44px;left: calc(50% - 600px + -370px);width: 1940px;}#rec647341839 .tn-elem[data-elem-id="1696440535380"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696440535987"] { z-index: 8; top: -44px;left: calc(50% - 600px + -370px);width: 1940px;}#rec647341839 .tn-elem[data-elem-id="1696440535987"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696440536639"] { z-index: 9; top: -44px;left: calc(50% - 600px + -370px);width: 1940px;}#rec647341839 .tn-elem[data-elem-id="1696440536639"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696398080567"] { z-index: 10; top: 290px;left: calc(50% - 600px + 765px);width: 400px;-webkit-filter: blur(25px);filter: blur(25px);}#rec647341839 .tn-elem[data-elem-id="1696398080567"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ;box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);}@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696227687950"] { z-index: 11; top: 250px;left: calc(50% - 600px + 725px);width: 400px;}#rec647341839 .tn-elem[data-elem-id="1696227687950"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ;box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);}@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696227697662"] { color: #ffffff; z-index: 12; top: 382px;left: calc(50% - 600px + 35px);width: 636px;}#rec647341839 .tn-elem[data-elem-id="1696227697662"] .tn-atom { color: #ffffff; font-size: 60px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696227741263"] { color: #ffffff; z-index: 13; top: 460px;left: calc(50% - 600px + 35px);width: 636px;}#rec647341839 .tn-elem[data-elem-id="1696227741263"] .tn-atom { color: #ffffff; font-size: 20px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec647341839 .tn-elem[data-elem-id="1696397216986"] { color: #0f1923; text-align: center; z-index: 14; top: 508px;left: calc(50% - 600px + 35px);width: 200px;height:55px;}#rec647341839 .tn-elem[data-elem-id="1696397216986"] .tn-atom { color: #0f1923; font-size: 14px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; border-radius: 30px; background-color: #ffffff; background-position: center center;border-color: transparent ;border-style: solid ; transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out; box-shadow: 0px 0px 25px 0px rgba(255,255,255,1);}@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {}</style><div class='t396'><div class="t396__artboard" data-artboard-recid="647341839" data-artboard-screens="320,480,640,960,1200" data-artboard-height="970" data-artboard-valign="center" data-artboard-upscale="grid" 
+><div class="t396__carrier" data-artboard-recid="647341839"></div><div class="t396__filter" data-artboard-recid="647341839"></div><div class='t396__elem tn-elem tn-elem__6473418391696440524176' data-elem-id='1696440524176' data-elem-type='image' data-field-top-value="-44" data-field-left-value="-370" data-field-width-value="1940" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-prx="mouse" data-animate-prx-dx="24" data-animate-prx-dy="24" data-field-filewidth-value="1680" data-field-fileheight-value="916" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild3762-3138-4632-a431-613239303264__1.png' alt='' imgfield='tn_img_1696440524176'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696440532902' data-elem-id='1696440532902' data-elem-type='image' data-field-top-value="-44" data-field-left-value="-370" data-field-width-value="1940" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-prx="mouse" data-animate-prx-dx="21" data-animate-prx-dy="21" data-field-filewidth-value="1680" data-field-fileheight-value="916" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild6131-3863-4838-b032-663437343730__2.png' alt='' imgfield='tn_img_1696440532902'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696440533438' data-elem-id='1696440533438' data-elem-type='image' data-field-top-value="-44" data-field-left-value="-370" data-field-width-value="1940" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-prx="mouse" data-animate-prx-dx="18" data-animate-prx-dy="18" data-field-filewidth-value="1680" data-field-fileheight-value="916" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild6232-3838-4337-b031-623030383532__3.png' alt='' imgfield='tn_img_1696440533438'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696440534037' data-elem-id='1696440534037' data-elem-type='image' data-field-top-value="-44" data-field-left-value="-370" data-field-width-value="1940" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-prx="mouse" data-animate-prx-dx="15" data-animate-prx-dy="15" data-field-filewidth-value="1680" data-field-fileheight-value="916" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild6530-3336-4165-a164-666631383762__4.png' alt='' imgfield='tn_img_1696440534037'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696440534706' data-elem-id='1696440534706' data-elem-type='image' data-field-top-value="-44" data-field-left-value="-370" data-field-width-value="1940" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-prx="mouse" data-animate-prx-dx="12" data-animate-prx-dy="12" data-field-filewidth-value="1680" data-field-fileheight-value="916" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild3033-3236-4435-b937-373536633135__5.png' alt='' imgfield='tn_img_1696440534706'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696440535380' data-elem-id='1696440535380' data-elem-type='image' data-field-top-value="-44" data-field-left-value="-370" data-field-width-value="1940" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-prx="mouse" data-animate-prx-dx="9" data-animate-prx-dy="9" data-field-filewidth-value="1680" data-field-fileheight-value="916" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild3931-6432-4562-b538-643434653662__6.png' alt='' imgfield='tn_img_1696440535380'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696440535987' data-elem-id='1696440535987' data-elem-type='image' data-field-top-value="-44" data-field-left-value="-370" data-field-width-value="1940" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-prx="mouse" data-animate-prx-dx="6" data-animate-prx-dy="6" data-field-filewidth-value="1680" data-field-fileheight-value="916" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild3939-6132-4963-b130-326433663631__7.png' alt='' imgfield='tn_img_1696440535987'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696440536639' data-elem-id='1696440536639' data-elem-type='image' data-field-top-value="-44" data-field-left-value="-370" data-field-width-value="1940" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-prx="mouse" data-animate-prx-dx="3" data-animate-prx-dy="3" data-field-filewidth-value="1980" data-field-fileheight-value="1080" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild3562-3731-4833-a631-303031636565__8.png' alt='' imgfield='tn_img_1696440536639'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696398080567 t-animate' data-elem-id='1696398080567' data-elem-type='image' data-field-top-value="290" data-field-left-value="765" data-field-width-value="400" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-field-filewidth-value="1200" data-field-fileheight-value="1200" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild3531-6131-4366-b735-353237313635__devil_smile.png' alt='' imgfield='tn_img_1696398080567'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696227687950 t-animate' data-elem-id='1696227687950' data-elem-type='image' data-field-top-value="250" data-field-left-value="725" data-field-width-value="400" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-field-filewidth-value="1200" data-field-fileheight-value="1200" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild3531-6131-4366-b735-353237313635__devil_smile.png' alt='' imgfield='tn_img_1696227687950'></div></div><div class='t396__elem tn-elem tn-elem__6473418391696227697662 t-animate' data-elem-id='1696227697662' data-elem-type='text' data-field-top-value="382" data-field-left-value="35" data-field-width-value="636" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" 
+><div class='tn-atom'field='tn_text_1696227697662'>SKANIE PHOTO</div> </div><div class='t396__elem tn-elem tn-elem__6473418391696227741263 t-animate' data-elem-id='1696227741263' data-elem-type='text' data-field-top-value="460" data-field-left-value="35" data-field-width-value="636" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" 
+><div class='tn-atom'field='tn_text_1696227741263'>|</div> </div><div class='t396__elem tn-elem tn-elem__6473418391696397216986 t-animate' data-elem-id='1696397216986' data-elem-type='button' data-field-top-value="508" data-field-left-value="35" data-field-height-value="55" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" 
+><a class='tn-atom' href="#rec648580285" >Тарифы</a></div></div> </div> <script>t_onReady(function () {
+t_onFuncLoad('t396_init', function () {
+t396_init('647341839');
+});
+});</script><!-- /T396 --></div><div id="rec648339033" class="r t-rec" style=" " data-animationappear="off" data-record-type="396" ><!-- T396 --><style>#rec648339033 .t396__artboard {height: 970px; background-image: linear-gradient(0.22turn,rgba(228,31,49,1) 0%,rgba(255,255,255,0.5) 100%); }#rec648339033 .t396__filter {height: 970px; }#rec648339033 .t396__carrier{height: 970px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec648339033 .t396__artboard {}#rec648339033 .t396__filter {}#rec648339033 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec648339033 .t396__artboard {}#rec648339033 .t396__filter {}#rec648339033 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec648339033 .t396__artboard {}#rec648339033 .t396__filter {}#rec648339033 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec648339033 .t396__artboard {}#rec648339033 .t396__filter {}#rec648339033 .t396__carrier {background-attachment: scroll;}} #rec648339033 .tn-elem[data-elem-id="1696436167253"] { color: #ffffff; z-index: 2; top: 150px;left: calc(50% - 600px + 268px);width: 665px;}#rec648339033 .tn-elem[data-elem-id="1696436167253"] .tn-atom { color: #ffffff; font-size: 60px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648339033 .tn-elem[data-elem-id="1696436208495"] { color: #ffffff; text-align: center; z-index: 3; top: 303px;left: calc(50% - 600px + 100px);width: 1000px;}#rec648339033 .tn-elem[data-elem-id="1696436208495"] .tn-atom { color: #ffffff; font-size: 20px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {}</style><div class='t396'><div class="t396__artboard" data-artboard-recid="648339033" data-artboard-screens="320,480,640,960,1200" data-artboard-height="970" data-artboard-valign="center" data-artboard-upscale="grid" 
+><div class="t396__carrier" data-artboard-recid="648339033"></div><div class="t396__filter" data-artboard-recid="648339033"></div><div class='t396__elem tn-elem tn-elem__6483390331696436167253 t-animate' data-elem-id='1696436167253' data-elem-type='text' data-field-top-value="150" data-field-left-value="268" data-field-width-value="665" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436167253'>ДОБРО ПОЖАЛОВАТЬ!</div> </div><div class='t396__elem tn-elem tn-elem__6483390331696436208495 t-animate' data-elem-id='1696436208495' data-elem-type='text' data-field-top-value="303" data-field-left-value="100" data-field-width-value="1000" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436208495'>Тут вы получите возможность раскрыть свой творческий потенциал в мире фотографии.<br>Если вы мечтаете научиться делать профессиональные снимки, передать эмоции и запечатлеть незабываемые моменты, то вы попали по адресу.<br>Наш курс разработан опытными фотографами, которые с радостью поделятся с вами своими знаниями и секретами мастерства.<br>Здесь вы найдете все необходимое для освоения искусства фотографии: от базовых принципов композиции и освещения до продвинутых техник обработки изображений.<br>Мы предлагаем удобную форму обучения, где вы сможете изучать материал в своем темпе, получая подробные видеоуроки, практические задания и обратную связь от наших преподавателей.<br>Присоединяйтесь к нашему сообществу фотолюбителей, где вы сможете общаться с единомышленниками, делиться своими работами и получать вдохновение от творческих идей. Будьте уверены, что наш курс поможет вам развить свои навыки и достичь новых высот в фотографии.<br>Не упустите шанс стать настоящим профессионалом в мире фотографии!<br>Зарегистрируйтесь на нашем курсе прямо сейчас и откройте для себя новые горизонты творчества.<br>Добро пожаловать в увлекательный мир фотографии!</div> </div></div> </div> <script>t_onReady(function () {
+t_onFuncLoad('t396_init', function () {
+t396_init('648339033');
+});
+});</script><!-- /T396 --></div><div id="rec648341061" class="r t-rec" style=" " data-animationappear="off" data-record-type="396" ><!-- T396 --><style>#rec648341061 .t396__artboard {height: 970px; background-image: linear-gradient(0.22turn,rgba(228,31,49,1) 0%,rgba(255,255,255,0.5) 100%); }#rec648341061 .t396__filter {height: 970px; }#rec648341061 .t396__carrier{height: 970px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec648341061 .t396__artboard {}#rec648341061 .t396__filter {}#rec648341061 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec648341061 .t396__artboard {}#rec648341061 .t396__filter {}#rec648341061 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec648341061 .t396__artboard {}#rec648341061 .t396__filter {}#rec648341061 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec648341061 .t396__artboard {}#rec648341061 .t396__filter {}#rec648341061 .t396__carrier {background-attachment: scroll;}} #rec648341061 .tn-elem[data-elem-id="1696436359257"] { color: #ffffff; z-index: 2; top: 330px;left: calc(50% - 600px + 472px);width: 256px;}#rec648341061 .tn-elem[data-elem-id="1696436359257"] .tn-atom { color: #ffffff; font-size: 60px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648341061 .tn-elem[data-elem-id="1696436359260"] { color: #ffffff; text-align: center; z-index: 3; top: 493px;left: calc(50% - 600px + 100px);width: 1000px;}#rec648341061 .tn-elem[data-elem-id="1696436359260"] .tn-atom { color: #ffffff; font-size: 20px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {}</style><div class='t396'><div class="t396__artboard" data-artboard-recid="648341061" data-artboard-screens="320,480,640,960,1200" data-artboard-height="970" data-artboard-valign="center" data-artboard-upscale="grid" 
+><div class="t396__carrier" data-artboard-recid="648341061"></div><div class="t396__filter" data-artboard-recid="648341061"></div><div class='t396__elem tn-elem tn-elem__6483410611696436359257 t-animate' data-elem-id='1696436359257' data-elem-type='text' data-field-top-value="330" data-field-left-value="472" data-field-width-value="256" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436359257'>О КУРСЕ</div> </div><div class='t396__elem tn-elem tn-elem__6483410611696436359260 t-animate' data-elem-id='1696436359260' data-elem-type='text' data-field-top-value="493" data-field-left-value="100" data-field-width-value="1000" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436359260'>Цель этого курса - помочь вам развить свои навыки фотографии и научиться использовать свою камеру на максимуме.<br>Мы предлагаем подробное изучение всех аспектов фотографии, начиная от основных принципов композиции и освещения, и заканчивая техниками редактирования и обработки фотографий.</div> </div></div> </div> <script>t_onReady(function () {
+t_onFuncLoad('t396_init', function () {
+t396_init('648341061');
+});
+});</script><!-- /T396 --></div><div id="rec648568223" class="r t-rec" style=" " data-animationappear="off" data-record-type="396" ><!-- T396 --><style>#rec648568223 .t396__artboard {height: 970px; background-image: linear-gradient(0.22turn,rgba(228,31,49,1) 0%,rgba(255,255,255,0.5) 100%); }#rec648568223 .t396__filter {height: 970px; }#rec648568223 .t396__carrier{height: 970px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec648568223 .t396__artboard {}#rec648568223 .t396__filter {}#rec648568223 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec648568223 .t396__artboard {}#rec648568223 .t396__filter {}#rec648568223 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec648568223 .t396__artboard {}#rec648568223 .t396__filter {}#rec648568223 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec648568223 .t396__artboard {}#rec648568223 .t396__filter {}#rec648568223 .t396__carrier {background-attachment: scroll;}} #rec648568223 .tn-elem[data-elem-id="1696436468520"] { color: #ffffff; z-index: 2; top: 200px;left: calc(50% - 600px + 112px);width: 976px;}#rec648568223 .tn-elem[data-elem-id="1696436468520"] .tn-atom { color: #ffffff; font-size: 60px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648568223 .tn-elem[data-elem-id="1696436468523"] { color: #ffffff; text-align: center; z-index: 3; top: 363px;left: calc(50% - 600px + 100px);width: 1000px;}#rec648568223 .tn-elem[data-elem-id="1696436468523"] .tn-atom { color: #ffffff; font-size: 20px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {}</style><div class='t396'><div class="t396__artboard" data-artboard-recid="648568223" data-artboard-screens="320,480,640,960,1200" data-artboard-height="970" data-artboard-valign="center" data-artboard-upscale="grid" 
+><div class="t396__carrier" data-artboard-recid="648568223"></div><div class="t396__filter" data-artboard-recid="648568223"></div><div class='t396__elem tn-elem tn-elem__6485682231696436468520 t-animate' data-elem-id='1696436468520' data-elem-type='text' data-field-top-value="200" data-field-left-value="112" data-field-width-value="976" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436468520'>ПРЕИМУЩЕСТВА НАШЕГО КУРСА</div> </div><div class='t396__elem tn-elem tn-elem__6485682231696436468523 t-animate' data-elem-id='1696436468523' data-elem-type='text' data-field-top-value="363" data-field-left-value="100" data-field-width-value="1000" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436468523'>1. Гибкое расписание: Вы можете учиться в удобное для вас время, не выходя из дома. Наш курс доступен 24/7, поэтому вы можете учиться в своем собственном темпе.<br>2. Опытные преподаватели: Наши преподаватели - профессиональные фотографы с богатым опытом работы. Они поделятся с вами своими знаниями и секретами успеха, чтобы помочь вам стать лучшим фотографом.<br>3. Практические упражнения: Мы предлагаем множество практических упражнений, которые помогут вам применить полученные знания на практике. Вы сможете улучшить свои навыки, работая с реальными сценариями и заданиями.<br>4. Обратная связь и поддержка: Наши преподаватели всегда готовы помочь вам и ответить на ваши вопросы. Вы сможете получить обратную связь и советы по улучшению своих навыков.<br>5. Сертификат: По окончании курса вы получите официальный сертификат, который подтвердит вашу квалификацию в области фотографии.</div> </div></div> </div> <script>t_onReady(function () {
+t_onFuncLoad('t396_init', function () {
+t396_init('648568223');
+});
+});</script><!-- /T396 --></div><div id="rec648729841" class="r t-rec" style=" " data-animationappear="off" data-record-type="396" ><!-- T396 --><style>#rec648729841 .t396__artboard {height: 970px; background-image: linear-gradient(0.22turn,rgba(228,31,49,1) 0%,rgba(255,255,255,0.5) 100%); }#rec648729841 .t396__filter {height: 970px; }#rec648729841 .t396__carrier{height: 970px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec648729841 .t396__artboard {}#rec648729841 .t396__filter {}#rec648729841 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec648729841 .t396__artboard {}#rec648729841 .t396__filter {}#rec648729841 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec648729841 .t396__artboard {}#rec648729841 .t396__filter {}#rec648729841 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec648729841 .t396__artboard {}#rec648729841 .t396__filter {}#rec648729841 .t396__carrier {background-attachment: scroll;}} #rec648729841 .tn-elem[data-elem-id="1696444415174"] { color: #ffffff; z-index: 2; top: 113px;left: calc(50% - 600px + 402px);width: 397px;}#rec648729841 .tn-elem[data-elem-id="1696444415174"] .tn-atom { color: #ffffff; font-size: 60px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648729841 .tn-elem[data-elem-id="1696444576121"] { z-index: 3; top: 225px;left: calc(50% - 600px + 200px);width: 800px;height:600px;}#rec648729841 .tn-elem[data-elem-id="1696444576121"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {}</style><div class='t396'><div class="t396__artboard" data-artboard-recid="648729841" data-artboard-screens="320,480,640,960,1200" data-artboard-height="970" data-artboard-valign="center" data-artboard-upscale="grid" 
+><div class="t396__carrier" data-artboard-recid="648729841"></div><div class="t396__filter" data-artboard-recid="648729841"></div><div class='t396__elem tn-elem tn-elem__6487298411696444415174 t-animate' data-elem-id='1696444415174' data-elem-type='text' data-field-top-value="113" data-field-left-value="402" data-field-width-value="397" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696444415174'>ПОРТФОЛИО</div> </div><div class='t396__elem tn-elem tn-elem__6487298411696444576121 t-animate' data-elem-id='1696444576121' data-elem-type='html' data-field-top-value="225" data-field-left-value="200" data-field-height-value="600" data-field-width-value="800" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom tn-atom__html'><!DOCTYPE html><html><head><title>Изображения из слайд-шоу</title><style>* {box-sizing: border-box}
+body {
+font-family: Verdana, sans-serif;
+margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+/* Кнопки next & previous*/
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+/* Измените положение "next button" */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+/* Добавьте черный фоновый цвет с небольшой прозрачностью*/
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+/* Подпись под изображением */
+.text {
+color: #ffffff;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+color: #ffffff;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+/* Точки/маркеры/указатели */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #0f1923;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+background-color: #ef4958;
+}
+/* Выцветание анимации */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+/* Для маленьких экранов увеличьте размер текста */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}</style></head><body><div class="slideshow-container"><div class="mySlides fade"><div class="numbertext">1 / 3</div><img src="https://topsov.com/wp-content/uploads/2023/01/2-programmirovanie-mozhet-stat-osnovnym-istochnikom-dohoda.jpg" style="width:100%"><div class="text">Код, на ноутбуке</div></div><div class="mySlides fade"><div class="numbertext">2 / 3</div><img src="https://suwaru.tokyo/images/2019/12/study_01.jpg" style="width:100%"><div class="text">Командная работа</div></div><div class="mySlides fade"><div class="numbertext">3 / 3</div><img src="https://vev.ru/wp-content/uploads/2021/11/data-governance2-1.jpg" style="width:100%"><div class="text">Работа в офисе</div></div><a class="prev" onclick="plusSlides(-1)">&#10094;</a><a class="next" onclick="plusSlides(1)">&#10095;</a></div><br><div style="text-align:center"><span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span> </div><script>var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1} 
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none"; 
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block"; 
+dots[slideIndex-1].className += " active";
+}</script></body></html></div></div></div> </div> <script>t_onReady(function () {
+t_onFuncLoad('t396_init', function () {
+t396_init('648729841');
+});
+});</script><!-- /T396 --></div><div id="rec648569694" class="r t-rec" style=" " data-animationappear="off" data-record-type="396" ><!-- T396 --><style>#rec648569694 .t396__artboard {height: 970px; background-image: linear-gradient(0.22turn,rgba(228,31,49,1) 0%,rgba(255,255,255,0.5) 100%); }#rec648569694 .t396__filter {height: 970px; }#rec648569694 .t396__carrier{height: 970px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec648569694 .t396__artboard {}#rec648569694 .t396__filter {}#rec648569694 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec648569694 .t396__artboard {}#rec648569694 .t396__filter {}#rec648569694 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec648569694 .t396__artboard {}#rec648569694 .t396__filter {}#rec648569694 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec648569694 .t396__artboard {}#rec648569694 .t396__filter {}#rec648569694 .t396__carrier {background-attachment: scroll;}} #rec648569694 .tn-elem[data-elem-id="1696436534801"] { color: #ffffff; z-index: 2; top: 300px;left: calc(50% - 600px + 240px);width: 720px;}#rec648569694 .tn-elem[data-elem-id="1696436534801"] .tn-atom { color: #ffffff; font-size: 60px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648569694 .tn-elem[data-elem-id="1696436534804"] { color: #ffffff; text-align: center; z-index: 3; top: 463px;left: calc(50% - 600px + 100px);width: 1000px;}#rec648569694 .tn-elem[data-elem-id="1696436534804"] .tn-atom { color: #ffffff; font-size: 20px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {}</style><div class='t396'><div class="t396__artboard" data-artboard-recid="648569694" data-artboard-screens="320,480,640,960,1200" data-artboard-height="970" data-artboard-valign="center" data-artboard-upscale="grid" 
+><div class="t396__carrier" data-artboard-recid="648569694"></div><div class="t396__filter" data-artboard-recid="648569694"></div><div class='t396__elem tn-elem tn-elem__6485696941696436534801 t-animate' data-elem-id='1696436534801' data-elem-type='text' data-field-top-value="300" data-field-left-value="240" data-field-width-value="720" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436534801'>НАШИ ПРЕПОДАВАТЕЛИ</div> </div><div class='t396__elem tn-elem tn-elem__6485696941696436534804 t-animate' data-elem-id='1696436534804' data-elem-type='text' data-field-top-value="463" data-field-left-value="100" data-field-width-value="1000" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436534804'>1. Иван Иванов - профессиональный фотограф с более чем 10-летним опытом работы. Он специализируется на портретной и пейзажной фотографии и имеет множество наград и признаний за свою работу.<br>2. Анна Смирнова - эксперт в области фотографии моды и рекламы. Она работала с известными брендами и публикациями и имеет обширный опыт в создании стильных и эффектных фотографий.</div> </div></div> </div> <script>t_onReady(function () {
+t_onFuncLoad('t396_init', function () {
+t396_init('648569694');
+});
+});</script><!-- /T396 --></div><div id="rec648580285" class="r t-rec" style=" " data-animationappear="off" data-record-type="396" ><!-- T396 --><style>#rec648580285 .t396__artboard {height: 970px; background-image: linear-gradient(0.22turn,rgba(228,31,49,1) 0%,rgba(255,255,255,0.5) 100%); }#rec648580285 .t396__filter {height: 970px; }#rec648580285 .t396__carrier{height: 970px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec648580285 .t396__artboard {}#rec648580285 .t396__filter {}#rec648580285 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec648580285 .t396__artboard {}#rec648580285 .t396__filter {}#rec648580285 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec648580285 .t396__artboard {}#rec648580285 .t396__filter {}#rec648580285 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec648580285 .t396__artboard {}#rec648580285 .t396__filter {}#rec648580285 .t396__carrier {background-attachment: scroll;}} #rec648580285 .tn-elem[data-elem-id="1696425703358"] { z-index: 2; top: 200px;left: calc(50% - 600px + 275px);width: 150px;}#rec648580285 .tn-elem[data-elem-id="1696425703358"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696425712661"] { z-index: 3; top: 200px;left: calc(50% - 600px + 525px);width: 150px;}#rec648580285 .tn-elem[data-elem-id="1696425712661"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696425713369"] { z-index: 4; top: 200px;left: calc(50% - 600px + 775px);width: 150px;}#rec648580285 .tn-elem[data-elem-id="1696425713369"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696425908504"] { color: #0f1923; text-align: center; z-index: 5; top: 820px;left: calc(50% - 600px + 500px);width: 200px;height:55px;}#rec648580285 .tn-elem[data-elem-id="1696425908504"] .tn-atom { color: #0f1923; font-size: 14px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; border-radius: 30px; background-color: #ffffff; background-position: center center;border-color: transparent ;border-style: solid ; transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out; box-shadow: 0px 0px 25px 0px rgba(255,255,255,1);}@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696436594332"] { color: #ffffff; z-index: 6; top: 73px;left: calc(50% - 600px + 472px);width: 257px;}#rec648580285 .tn-elem[data-elem-id="1696436594332"] .tn-atom { color: #ffffff; font-size: 60px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696436594335"] { color: #ffffff; text-align: center; z-index: 7; top: 450px;left: calc(50% - 600px + 250px);width: 200px;}#rec648580285 .tn-elem[data-elem-id="1696436594335"] .tn-atom { color: #ffffff; font-size: 20px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696436650979"] { color: #ffffff; text-align: center; z-index: 8; top: 450px;left: calc(50% - 600px + 500px);width: 200px;}#rec648580285 .tn-elem[data-elem-id="1696436650979"] .tn-atom { color: #ffffff; font-size: 20px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696436651641"] { color: #ffffff; text-align: center; z-index: 9; top: 450px;left: calc(50% - 600px + 750px);width: 200px;}#rec648580285 .tn-elem[data-elem-id="1696436651641"] .tn-atom { color: #ffffff; font-size: 20px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696448573468"] { color: #ffffff; text-align: center; z-index: 10; top: 400px;left: calc(50% - 600px + 250px);width: 200px;}#rec648580285 .tn-elem[data-elem-id="1696448573468"] .tn-atom { color: #ffffff; font-size: 22px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696448588592"] { color: #ffffff; text-align: center; z-index: 11; top: 400px;left: calc(50% - 600px + 500px);width: 208px;}#rec648580285 .tn-elem[data-elem-id="1696448588592"] .tn-atom { color: #ffffff; font-size: 22px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648580285 .tn-elem[data-elem-id="1696448590872"] { color: #ffffff; text-align: center; z-index: 12; top: 400px;left: calc(50% - 600px + 750px);width: 200px;}#rec648580285 .tn-elem[data-elem-id="1696448590872"] .tn-atom { color: #ffffff; font-size: 22px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {}</style><div class='t396'><div class="t396__artboard" data-artboard-recid="648580285" data-artboard-screens="320,480,640,960,1200" data-artboard-height="970" data-artboard-valign="center" data-artboard-upscale="grid" 
+><div class="t396__carrier" data-artboard-recid="648580285"></div><div class="t396__filter" data-artboard-recid="648580285"></div><div class='t396__elem tn-elem tn-elem__6485802851696425703358 t-animate' data-elem-id='1696425703358' data-elem-type='image' data-field-top-value="200" data-field-left-value="275" data-field-width-value="150" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" data-field-filewidth-value="1200" data-field-fileheight-value="1200" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild3938-3237-4363-b432-373961353535__devil_smile.png' alt='' imgfield='tn_img_1696425703358'></div></div><div class='t396__elem tn-elem tn-elem__6485802851696425712661 t-animate' data-elem-id='1696425712661' data-elem-type='image' data-field-top-value="200" data-field-left-value="525" data-field-width-value="150" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" data-field-filewidth-value="1200" data-field-fileheight-value="1200" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild6537-6632-4438-b833-356664393734__devil_smile.png' alt='' imgfield='tn_img_1696425712661'></div></div><div class='t396__elem tn-elem tn-elem__6485802851696425713369 t-animate' data-elem-id='1696425713369' data-elem-type='image' data-field-top-value="200" data-field-left-value="775" data-field-width-value="150" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" data-field-filewidth-value="1200" data-field-fileheight-value="1200" 
+><div class='tn-atom' ><img class='tn-atom__img t-img' data-original='images/tild6566-3066-4338-b864-353537356632__devil_smile.png' alt='' imgfield='tn_img_1696425713369'></div></div><div class='t396__elem tn-elem tn-elem__6485802851696425908504 t-animate' data-elem-id='1696425908504' data-elem-type='button' data-field-top-value="820" data-field-left-value="500" data-field-height-value="55" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><a class='tn-atom' href="#popup:buypack" >Купить</a></div><div class='t396__elem tn-elem tn-elem__6485802851696436594332 t-animate' data-elem-id='1696436594332' data-elem-type='text' data-field-top-value="73" data-field-left-value="472" data-field-width-value="257" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436594332'>ТАРИФЫ</div> </div><div class='t396__elem tn-elem tn-elem__6485802851696436594335 t-animate' data-elem-id='1696436594335' data-elem-type='text' data-field-top-value="450" data-field-left-value="250" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436594335'>- Доступ к основным модулям курса<br>- Возможность просмотра видеоуроков и выполнения практических заданий<br>- Поддержка преподавателей через форум</div> </div><div class='t396__elem tn-elem tn-elem__6485802851696436650979 t-animate' data-elem-id='1696436650979' data-elem-type='text' data-field-top-value="450" data-field-left-value="500" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436650979'>- Все возможности продвинутого тарифа<br>- Дополнительные бонусы: участие в мастер-классах от профессиональных фотографов, скидка на дополнительные курсы и обучающие материалы</div> </div><div class='t396__elem tn-elem tn-elem__6485802851696436651641 t-animate' data-elem-id='1696436651641' data-elem-type='text' data-field-top-value="450" data-field-left-value="750" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436651641'>- Все возможности базового тарифа<br>- Дополнительные материалы и упражнения для более глубокого погружения в тему<br>- Индивидуальная обратная связь от преподавателей на выполненные задания</div> </div><div class='t396__elem tn-elem tn-elem__6485802851696448573468 t-animate' data-elem-id='1696448573468' data-elem-type='text' data-field-top-value="400" data-field-left-value="250" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696448573468'>Базовый тариф</div> </div><div class='t396__elem tn-elem tn-elem__6485802851696448588592 t-animate' data-elem-id='1696448588592' data-elem-type='text' data-field-top-value="400" data-field-left-value="500" data-field-width-value="208" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696448588592'>Продвинутый тариф</div> </div><div class='t396__elem tn-elem tn-elem__6485802851696448590872 t-animate' data-elem-id='1696448590872' data-elem-type='text' data-field-top-value="400" data-field-left-value="750" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696448590872'>Премиум тариф</div> </div></div> </div> <script>t_onReady(function () {
+t_onFuncLoad('t396_init', function () {
+t396_init('648580285');
+});
+});</script><!-- /T396 --></div><div id="rec648745779" class="r t-rec" style=" " data-animationappear="off" data-record-type="702" ><!-- T702 --><div class="t702"><div 
+class="t-popup" data-tooltip-hook="#popup:buypack" 
+role="dialog" 
+aria-modal="true" 
+tabindex="-1" 
+aria-label="Заявка на покупку" 
+style="background-color: rgba(15,25,35,0.50);"><div class="t-popup__close t-popup__block-close"><button 
+type="button" 
+class="t-popup__close-wrapper t-popup__block-close-button" 
+aria-label="Закрыть диалоговое окно"
+><svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></button></div><div class="t-popup__container t-width t-width_6" style="background-color:#ffffff;"><div class="t702__wrapper"><div class="t702__text-wrapper t-align_center"><div class="t702__title t-title t-title_xxs" id="popuptitle_648745779" style="color:#0f1923;">Заявка на покупку</div><div class="t702__descr t-descr t-descr_xs" style="color:#0f1923;">Введите свои контакты</div></div> <form id="form648745779" name='form648745779' role="form" action='' method='POST' data-formactiontype="0" data-inputbox=".t-input-group" class="t-form js-form-proccess t-form_inputs-total_4 " data-success-callback="t702_onSuccess" ><!-- NO ONE SERVICES CONNECTED --> <input type="hidden" name="tildaspec-formname" tabindex="-1" value="Заявка на покупку"><div class="js-successbox t-form__successbox t-text t-text_md" 
+aria-live="polite" 
+style="display:none;"
+></div><div class="t-form__inputsbox"><div class="t-input-group t-input-group_nm" data-input-lid="1895215262381"
+><div class="t-input-block" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;"><input type="text"
+autocomplete="name"
+name="Name"
+id="input_1895215262381"
+class="t-input js-tilda-rule "
+value=""
+placeholder="ФИО" data-tilda-req="1" aria-required="true" data-tilda-rule="name"
+aria-describedby="error_1895215262381"
+style="color:#0f1923;border:1px solid #0f1923;border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;"><div class="t-input-error" aria-live="polite" id="error_1895215262381"></div></div></div><div class="t-input-group t-input-group_em" data-input-lid="1895215262380"
+><div class="t-input-block" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;"><input type="email" 
+autocomplete="email" 
+name="Email" 
+id="input_1895215262380" 
+class="t-input js-tilda-rule " 
+value="" 
+placeholder="Почта" data-tilda-req="1" aria-required="true" data-tilda-rule="email" 
+aria-describedby="error_1895215262380" 
+style="color:#0f1923;border:1px solid #0f1923;border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;"><div class="t-input-error" aria-live="polite" id="error_1895215262380"></div></div></div><div class="t-input-group t-input-group_ph" data-input-lid="1895215262382"
+><div class="t-input-block" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;"><input type="tel"
+autocomplete="tel"
+name="Phone"
+id="input_1895215262382"
+class="t-input js-tilda-rule js-tilda-mask "
+value=""
+placeholder="Номер телефона" data-tilda-req="1" aria-required="true" data-tilda-rule="phone"
+pattern="[0-9]*" data-tilda-mask="+7 (999) 999-9999" aria-describedby="error_1895215262382"
+style="color:#0f1923;border:1px solid #0f1923;border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;"><input type="hidden"
+name="tildaspec-mask-Phone"
+id="input_1895215262382"
+value="+7 (999) 999-9999"
+aria-describedby="error_1895215262382"><div class="t-input-error" aria-live="polite" id="error_1895215262382"></div></div></div><div class="t-input-group t-input-group_in" data-input-lid="1696447251353"
+><div class="t-input-block" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;"><input type="text"
+name="Input"
+id="input_1696447251353"
+class="t-input js-tilda-rule "
+value=""
+placeholder="Название курса" data-tilda-req="1" aria-required="true" aria-describedby="error_1696447251353"
+style="color:#0f1923;border:1px solid #0f1923;border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;"><div class="t-input-error" aria-live="polite" id="error_1696447251353"></div></div></div><div class="t-form__errorbox-middle"><!--noindex--><div 
+class="js-errorbox-all t-form__errorbox-wrapper" 
+style="display:none;" data-nosnippet 
+tabindex="-1" 
+aria-label="Ошибки при заполнении формы"
+><ul 
+role="list" 
+class="t-form__errorbox-text t-text t-text_md"
+><li class="t-form__errorbox-item js-rule-error js-rule-error-all"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-req"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-email"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-name"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-phone"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-minlength"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-string"></li></ul></div><!--/noindex--> </div><div class="t-form__submit"><button type="submit" class="t-submit" style="color:#ffffff;background-color:#0f1923;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;" >Отправить</button></div></div><div class="t-form__errorbox-bottom"><!--noindex--><div 
+class="js-errorbox-all t-form__errorbox-wrapper" 
+style="display:none;" data-nosnippet 
+tabindex="-1" 
+aria-label="Ошибки при заполнении формы"
+><ul 
+role="list" 
+class="t-form__errorbox-text t-text t-text_md"
+><li class="t-form__errorbox-item js-rule-error js-rule-error-all"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-req"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-email"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-name"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-phone"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-minlength"></li><li class="t-form__errorbox-item js-rule-error js-rule-error-string"></li></ul></div><!--/noindex--> </div></form><style>#rec648745779 input::-webkit-input-placeholder {color:#0f1923; opacity: 0.5;}
+#rec648745779 input::-moz-placeholder {color:#0f1923; opacity: 0.5;}
+#rec648745779 input:-moz-placeholder {color:#0f1923; opacity: 0.5;}
+#rec648745779 input:-ms-input-placeholder {color:#0f1923; opacity: 0.5;}
+#rec648745779 textarea::-webkit-input-placeholder {color:#0f1923; opacity: 0.5;}
+#rec648745779 textarea::-moz-placeholder {color:#0f1923; opacity: 0.5;}
+#rec648745779 textarea:-moz-placeholder {color:#0f1923; opacity: 0.5;}
+#rec648745779 textarea:-ms-input-placeholder {color:#0f1923; opacity: 0.5;}</style></div></div></div></div><script>t_onReady(function () {
+t_onFuncLoad('t702_initPopup', function () {
+t702_initPopup('648745779');
+});
+/* fix for Android */
+var userAgent = navigator.userAgent.toLowerCase();
+var isAndroid = userAgent.indexOf('android') !== -1;
+var body = document.body;
+if (!body) return;
+var isScrollablefFix = body.classList.contains('t-body_scrollable-fix-for-android');
+if (isAndroid && !isScrollablefFix) {
+body.classList.add('t-body_scrollable-fix-for-android');
+document.head.insertAdjacentHTML(
+'beforeend',
+'<style>@media screen and (max-width: 560px) {\n.t-body_scrollable-fix-for-android {\noverflow: visible !important;\n}\n}\n</style>'
+);
+console.log('Android css fix was inited');
+}
+});</script></div><div id="rec648348999" class="r t-rec" style=" " data-animationappear="off" data-record-type="396" ><!-- T396 --><style>#rec648348999 .t396__artboard {height: 970px; background-image: linear-gradient(0.22turn,rgba(228,31,49,1) 0%,rgba(255,255,255,0.5) 100%); }#rec648348999 .t396__filter {height: 970px; }#rec648348999 .t396__carrier{height: 970px;background-position: center center;background-attachment: scroll;background-size: cover;background-repeat: no-repeat;}@media screen and (max-width: 1199px) {#rec648348999 .t396__artboard {}#rec648348999 .t396__filter {}#rec648348999 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 959px) {#rec648348999 .t396__artboard {}#rec648348999 .t396__filter {}#rec648348999 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 639px) {#rec648348999 .t396__artboard {}#rec648348999 .t396__filter {}#rec648348999 .t396__carrier {background-attachment: scroll;}}@media screen and (max-width: 479px) {#rec648348999 .t396__artboard {}#rec648348999 .t396__filter {}#rec648348999 .t396__carrier {background-attachment: scroll;}} #rec648348999 .tn-elem[data-elem-id="1696452667049"] { z-index: 2; top: 300px;left: calc(50% - 600px + 64px);width: 1072px;height:563px;}#rec648348999 .tn-elem[data-elem-id="1696452667049"] .tn-atom { background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {} #rec648348999 .tn-elem[data-elem-id="1696436816359"] { color: #ffffff; z-index: 3; top: 160px;left: calc(50% - 600px + 472px);width: 256px;}#rec648348999 .tn-elem[data-elem-id="1696436816359"] .tn-atom { color: #ffffff; font-size: 60px; font-family: 'TildaSans',Arial,sans-serif; line-height: 1.55; font-weight: 800; background-position: center center;border-color: transparent ;border-style: solid ; }@media screen and (max-width: 1199px) {}@media screen and (max-width: 959px) {}@media screen and (max-width: 639px) {}@media screen and (max-width: 479px) {}</style><div class='t396'><div class="t396__artboard" data-artboard-recid="648348999" data-artboard-screens="320,480,640,960,1200" data-artboard-height="970" data-artboard-valign="center" data-artboard-upscale="grid" 
+><div class="t396__carrier" data-artboard-recid="648348999"></div><div class="t396__filter" data-artboard-recid="648348999"></div><div class='t396__elem tn-elem tn-elem__6483489991696452667049 t-animate' data-elem-id='1696452667049' data-elem-type='html' data-field-top-value="300" data-field-left-value="64" data-field-height-value="563" data-field-width-value="1072" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom tn-atom__html'><!DOCTYPE html><html><head><title>Отзывы</title><style>body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+margin: 0;
+padding: 0;
+}
+h1 {
+text-align: center;
+padding: 20px;
+background-color: #333;
+color: #fff;
+}
+.review {
+background-color: #fff;
+padding: 20px;
+margin: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+h2 {
+font-size: 18px;
+margin: 0;
+color: #333;
+}
+p {
+font-size: 14px;
+margin: 5px 0;
+}
+.author {
+color: #777;
+}</style></head><body><div class="review"><h2>Отзыв 1</h2><p>Особенно мне понравилось изучение основных принципов композиции и освещения. Теперь я гораздо лучше понимаю, как создавать красивые и эстетически приятные фотографии. Также я узнала о технических аспектах фотографии, таких как настройка экспозиции и работа с диафрагмой. Это помогло мне значительно улучшить качество своих снимков.</p><p class="author">Автор: Иван</p></div><div class="review"><h2>Отзыв 2</h2><p>"Я очень благодарна за возможность пройти этот онлайн курс по фотографии. Программа обучения оказалась очень полной и информативной. Я получила массу полезных знаний и навыков, которые смогла сразу же применить на практике.</p><p class="author">Автор: Анна</p></div><div class="review"><h2>Отзыв 3</h2><p>Очень полезным оказался блок об обработке и редактировании фотографий. Я освоила различные техники ретуши и улучшения изображений, благодаря чему мои фотографии стали еще более привлекательными.</p><p class="author">Автор: Петр</p></div><div class="review"><h2>Отзыв 4</h2><p>Изучение портретной и пейзажной фотографии было особенно интересным. Я научилась использовать различные техники и приемы для создания выразительных портретов и потрясающих пейзажей. Теперь мои фотографии стали намного более живыми и запоминающимися.</p><p class="author">Автор: Саша</p></div></body></html></div></div><div class='t396__elem tn-elem tn-elem__6483489991696436816359 t-animate' data-elem-id='1696436816359' data-elem-type='text' data-field-top-value="160" data-field-left-value="472" data-field-width-value="256" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadein" data-animate-duration="1" data-animate-trigger-offset="50" 
+><div class='tn-atom'field='tn_text_1696436816359'>ОТЗЫВЫ</div> </div></div> </div> <script>t_onReady(function () {
+t_onFuncLoad('t396_init', function () {
+t396_init('648348999');
+});
+});</script><!-- /T396 --></div><div id="rec647343907" class="r t-rec" style="background-color:#ef4958; " data-animationappear="off" data-record-type="389" data-bg-color="#ef4958"><!-- T389 --><div class="t389" id="t-footer_647343907"><div class="t389__maincontainer" style="height: 100px;"><div class="t389__content"><div class="t389__col t389__col_hiddenmobile"><div class="t389__typo t389__copyright t-name t-name_xs" field="text" style="color: #ffffff;color:#ffffff;font-weight:700;font-family:'TildaSans';">© 2023 SKANIE PROJECT</div></div><div class="t389__col t389__col_center t-align_center"><div class="t389__centercontainer"><ul class="t389__list"><li class="t389__list_item t-name t-name_xs"><a class="t389__typo" style="color: #ffffff;" href="vk.com" data-menu-item-number="1">ВКонтакте</a></li><li class="t389__list_item t-name t-name_xs"><a class="t389__typo" style="color: #ffffff;" href="telegram.org" data-menu-item-number="2">Телеграм</a></li></ul></div></div><div class="t389__col t389__col_mobile"><div class="t389__typo t389__copyright t-name t-name_xs" field="text" style="color: #ffffff;color:#ffffff;font-weight:700;font-family:'TildaSans';">© 2023 SKANIE PROJECT</div></div><div class="t389__col"><div class="t389__scroll t-align_right"><a class="t389__typo t-name t-name_xs t389_scrolltop" style="color: #ffffff;font-weight:700;font-family:'TildaSans';" href="javascript:t389_scrollToTop();">Вверх<span class="t389__icon"><svg role="presentation" width="5" height="17" viewBox="0 0 6 20"><path fill="#ffffff" d="M5.78 3.85L3.12.28c-.14-.14-.3-.14-.43 0L.03 3.85c-.14.13-.08.27.13.27h1.72V20h2.06V4.12h1.72c.15 0 .22-.07.19-.17a.26.26 0 00-.07-.1z" fill-rule="evenodd"/></svg></span></a></div></div></div></div></div></div><div id="rec648344690" class="r t-rec" style=" " data-animationappear="off" data-record-type="131" ><!-- T123 --><div class="t123" ><div class="t-container_100 "><div class="t-width t-width_100 ">
+
+			<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6516f710e6bed319d00436cf/1hbgra6q6';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+			 
+			
+</div> </div></div></div><div id="rec648629882" class="r t-rec" style=" " data-animationappear="off" data-record-type="657" ><!-- T657 --><div class="t657 t657_rectangle t657_closed" data-storage-item="t657cookiename_7904563" style="left:20px;"><div class="t657__wrapper t-align_center" 
+role="alertdialog" 
+aria-modal="false" 
+style="background:#ef4958;"><div class="t657__text t-name t-descr_xxs" style="color:#ffffff;font-weight:600;" field="text">Этот веб-сайт использует файлы cookie, чтобы обеспечить вам наилучший опыт работы.</div><div class="t657__btn-wrapper"><button class="t657__btn t-btn t-btn_sm" 
+role="button" 
+style="color:#ffffff;background-color:#0f1923;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;text-transform:uppercase;">Ок, больше не показывать.</button></div><button type="button" class="t657__close-button t657__icon-close" aria-label="Закрыть уведомление"><svg role="presentation" width="10px" height="10px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ><desc>Close</desc><g stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></button></div></div><script>t_onReady(function () {
+t_onFuncLoad('t657_init', function () {
+t657_init('648629882');
+});
+});</script></div><div id="rec648738680" class="r t-rec" style=" " data-animationappear="off" data-record-type="635" ><!-- t635 --><div class="t635__textholder" data-recid="647341839" data-text1="Подробные онлайн курсы для обучения на фотографа" data-text2="Хорошие преподаватели" data-text3="Дешёвые цены на курсы" 
+></div><script>t_onReady(function() {
+t_onFuncLoad('t635_init', function() {
+t635_init('648738680', '#ffffff', '#ffffff');
+});
+});</script></div></div><!--/allrecords-->
